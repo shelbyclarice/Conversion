@@ -1,3 +1,4 @@
+/*Global*/
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@ body {
   background-color: #9fb4c9;
 }
 
+/*Inside box*/
 .container {
   max-width: 450px;
   background: #001033;
@@ -21,6 +23,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*Temperature Conversion Title*/
 .title {
   display: flex;
   justify-content: center;
@@ -29,17 +32,13 @@ body {
   gap: 10px;
 }
 
-.Temperature-icon {
-  font-size: 45px;
-  color: white;
-}
-
 h1 {
   color: white;
   letter-spacing: 1.2px;
   font-size: 30px;
 }
 
+/*Placeholders for Numbers*/
 #celcius,
 #fahrenheit,
 #kelvin {
@@ -61,6 +60,7 @@ h1 {
   padding: 0 10px;
 }
 
+/*Temperature Icons - C, F, and K*/
 .icon {
   flex: 1;
   height: 60px;
@@ -73,6 +73,7 @@ h1 {
   border-radius: 0 8px 8px 0;
 }
 
+/*All Clear button to clear the numbers*/
 .button {
   margin-top: 25px;
   text-align: center;
